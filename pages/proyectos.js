@@ -26,7 +26,7 @@ const Works = () => (
             title="Piedra, Papel y Tijera"
             thumbnail={thumbPaperScissorRock}
           >
-            Aplicativo web que simula el clásico juego de "Piedra, Papel y Tijera", solo que este cuenta con un bonus y es que hay 2 figuras adicionales, lo cual aumenta la dificultad.
+            Aplicativo web que simula el clásico juego de &quot;Piedra, Papel y Tijera&quot;, solo que este cuenta con un bonus y es que hay 2 figuras adicionales, lo cual aumenta la dificultad.
           </WorkGridItem>
         </Section>
         <Section delay={0.1}>
