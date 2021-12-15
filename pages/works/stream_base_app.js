@@ -12,7 +12,7 @@ const Work = () => (
       </Title>
       <P>
         Stream-base-app creada con react, sass, metodología BEM y first mobile.
-        Es un sitio web que implementa funciones básicas de "Twitch.tv".
+        Es un sitio web que implementa funciones básicas de &quot;Twitch.tv&quot;.
       </P>
       <List ml={4} my={4}>
         <ListItem>

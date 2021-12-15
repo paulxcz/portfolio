@@ -11,7 +11,7 @@ const Work = () => (
         Gif Expert App <Badge>2021-</Badge>
       </Title>
       <P>
-        Un aplicativo web que te facilitará la busqueda de gif's, para obtener los resultados se uso la API de GIPHY.
+        Un aplicativo web que te facilitará la busqueda de gif&apos;s, para obtener los resultados se uso la API de GIPHY.
       </P>
       <List ml={4} my={4}>
         <ListItem>
