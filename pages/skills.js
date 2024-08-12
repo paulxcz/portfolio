@@ -12,7 +12,7 @@ import thumbReactLogo from '../public/images/skills/react_logo.png'
 import thumbCsharpLogo from '../public/images/skills/Csharp_logo.png'
 import thumbVbLogo from '../public/images/skills/VB_Logo.png'
 import thumbPhytonLogo from '../public/images/skills/phyton_logo.png'
-import thumbNet from '../public/images/skills/Net-Framework_Logo.png'
+import thumbNet from '../public/images/skills/NET-Framework_Logo.png'
 import thumbSQL from '../public/images/skills/Sql_logo.png'
 import thumbAzureFuncions from '../public/images/skills/azureFunctions_logo.png'
 
