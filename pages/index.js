@@ -16,10 +16,7 @@ import Paragraph from '../components/paragraph'
 import { BioSection, BioYear } from '../components/bio'
 import Layout from '../components/layouts/article'
 import Section from '../components/section'
-import {
-  IoLogoGithub,
-  IoLogoLinkedin,
-} from 'react-icons/io5'
+import { IoLogoGithub, IoLogoLinkedin } from 'react-icons/io5'
 
 const Home = () => (
   <Layout>
@@ -31,9 +28,7 @@ const Home = () => (
         textAlign="center"
         bg={useColorModeValue('whiteAlpha.500', 'whiteAlpha.200')}
       >
-        Hola, Soy Paul un Frontend developer, estudiante de los últimos ciclos de la
-        carrera de ingenieria de sistemas de información y un apasionado de las
-        nuevas tecnologías!
+        Hola, soy Paul, un apasionado por el desarrollo de software.
       </Box>
 
       <Box display={{ md: 'flex' }}>
@@ -41,7 +36,7 @@ const Home = () => (
           <Heading as="h2" variant="page-title">
             Paul Aranda
           </Heading>
-          <p>Paulxcz (Frontend Developer)</p>
+          <p>Paulxcz (FullStack Developer)</p>
         </Box>
         <Box
           flexShrink={0}
@@ -67,8 +62,10 @@ const Home = () => (
           Proyectos
         </Heading>
         <Paragraph>
-          Paul es un estudiante de la carrera de ingeniería de sistemas de información, 
-          apasiando por aprender constantemente nuevas tecnologías, con el objetivo de crear servicios o plataformas digitales para poder resolver problemas o facilitar procesos.
+          Paul es un egresado de la carrera de ingeniería de sistemas de
+          información, apasiando por aprender constantemente nuevas tecnologías
+          o tendencias, con el objetivo de crear servicios o plataformas
+          digitales para poder resolver problemas o facilitar procesos.
         </Paragraph>
         <Box align="center" my={4}>
           <NextLink href="/proyectos">
@@ -92,8 +89,19 @@ const Home = () => (
           Culmine mi formación escolar.
         </BioSection>
         <BioSection>
-          <BioYear>2016 to present</BioYear>
-          Inicié la carrera de Ingeniería de Sistemas de Información en la Universidad Peruana de Ciencias Aplicadas(UPC), actualmente estoy cursando los últimos ciclos y en busca de poder insertarme en el mundo de la programación profesional. 
+          <BioYear>2022</BioYear>
+          Trabaje en Luz del Sur como practicante de sistemas.
+        </BioSection>
+        <BioSection>
+          <BioYear>2023</BioYear>
+          Trabaje en el banco más grande del Perú el BCP, para el COE Riesgos de
+          Mercado como practicante.
+        </BioSection>
+
+        <BioSection>
+          <BioYear>2024</BioYear>
+          Complete el bachiller de Ingeniería de Sistemas de Información en la
+          Universidad Peruana de Ciencias Aplicadas(UPC).
         </BioSection>
       </Section>
 
@@ -103,7 +111,7 @@ const Home = () => (
         </Heading>
         <Paragraph>
           Natación, Música,{' '}
-          <Link href="https://weenjoymanga.com/" target="_blank">
+          <Link href="https://paulxcz.github.io/WeEnjoyManga/" target="_blank">
             Manga/Anime
           </Link>
           , Videojuegos,{' '}
@@ -131,7 +139,10 @@ const Home = () => (
             </Link>
           </ListItem>
           <ListItem>
-            <Link href="https://www.linkedin.com/in/paúl-aranda-bravo-574401180/" target="_blank">
+            <Link
+              href="https://www.linkedin.com/in/paúl-aranda-bravo-574401180/"
+              target="_blank"
+            >
               <Button
                 variant="ghost"
                 colorScheme="teal"
