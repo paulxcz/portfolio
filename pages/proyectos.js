@@ -26,17 +26,29 @@ const Works = () => (
             title="Piedra, Papel y Tijera"
             thumbnail={thumbPaperScissorRock}
           >
-            Aplicativo web que simula el clásico juego de &quot;Piedra, Papel y Tijera&quot;, solo que este cuenta con un bonus y es que hay 2 figuras adicionales, lo cual aumenta la dificultad.
+            Aplicativo web que simula el clásico juego de &quot;Piedra, Papel y
+            Tijera&quot;, solo que este cuenta con un bonus y es que hay 2
+            figuras adicionales, lo cual aumenta la dificultad.
           </WorkGridItem>
         </Section>
         <Section delay={0.1}>
-          <WorkGridItem id="stream_base_app" thumbnail={thumbStreamBaseApp} title="Stream Base App">
-            Sitio web que simula características básicas de twitch.tv, realizado con React, Sass, first mobile y metodología BEM. 
+          <WorkGridItem
+            id="stream_base_app"
+            thumbnail={thumbStreamBaseApp}
+            title="Stream Base App"
+          >
+            Sitio web que simula características básicas de twitch.tv, realizado
+            con React, Sass, first mobile y metodología BEM.
           </WorkGridItem>
         </Section>
         <Section>
-          <WorkGridItem id="ipTracker" title="Ip Tracker" thumbnail={thumbIpTacker}>
-            Un aplicativo web a través del cual puedes consultar la ubicación de una IP.
+          <WorkGridItem
+            id="ipTracker"
+            title="Ip Tracker"
+            thumbnail={thumbIpTacker}
+          >
+            Un aplicativo web a través del cual puedes consultar la ubicación de
+            una IP.
           </WorkGridItem>
         </Section>
         <Section>
@@ -45,36 +57,55 @@ const Works = () => (
             title="Rest Countries API"
             thumbnail={thumbRestCountries}
           >
-            Aplicativo web en el cuál podrás consultar información de cualquier país, además de filtrar busqueda de países por continente o nombre.
+            Aplicativo web en el cuál podrás consultar información de cualquier
+            país, además de filtrar busqueda de países por continente o nombre.
           </WorkGridItem>
         </Section>
 
         <Section delay={0.1}>
-          <WorkGridItem id="We_Enjoy_Manga" thumbnail={thumbWeEnjoyManga} title="We Enjoy Manga">
-            Página web dedicada a publicar información actualizada, recomendaciones y playlist sobre anime y manga.  
+          <WorkGridItem
+            id="We_Enjoy_Manga"
+            thumbnail={thumbWeEnjoyManga}
+            title="We Enjoy Manga"
+          >
+            Página web dedicada a publicar información actualizada,
+            recomendaciones y playlist sobre anime y manga.
           </WorkGridItem>
         </Section>
 
         <Section delay={0.1}>
-          <WorkGridItem id="Gif_Expert_App" thumbnail={thumbGifExpertApp} title="Gif Expert App">
-            Aplicativo web en el cual podrás buscar Gif&apos;s de cualquier genero.
+          <WorkGridItem
+            id="Gif_Expert_App"
+            thumbnail={thumbGifExpertApp}
+            title="Gif Expert App"
+          >
+            Aplicativo web en el cual podrás buscar Gif&apos;s de cualquier
+            genero.
           </WorkGridItem>
         </Section>
 
         <Section delay={0.1}>
-          <WorkGridItem id="calculator_app" thumbnail={thumbCalculator} title="Calculator App">
-            Aplicativo desarrollado con HTML, JS vanila, scss, flexbox y css-grid, cuenta con 3 temas diferentes.
+          <WorkGridItem
+            id="calculator_app"
+            thumbnail={thumbCalculator}
+            title="Calculator App"
+          >
+            Aplicativo desarrollado con HTML, JS vanila, scss, flexbox y
+            css-grid, cuenta con 3 temas diferentes.
           </WorkGridItem>
         </Section>
 
         <Section delay={0.1}>
-          <WorkGridItem id="Count_Down_App" thumbnail={thumbCountDownTimer} title="Count-down timer">
-            Un aplicativo que simula características básicas de twitch.tv, realizado con React, Sass, first mobile y metodología BEM. 
+          <WorkGridItem
+            id="Count_Down_App"
+            thumbnail={thumbCountDownTimer}
+            title="Count-down timer"
+          >
+            Un aplicativo que simula características básicas de twitch.tv,
+            realizado con React, Sass, first mobile y metodología BEM.
           </WorkGridItem>
         </Section>
-
       </SimpleGrid>
-
     </Container>
   </Layout>
 )
