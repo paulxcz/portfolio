@@ -3,8 +3,7 @@ import Layout from '../components/layouts/article'
 import Section from '../components/section'
 import { GridItem } from '../components/grid-item'
 
-import thumbHtmlLogo from '../public/images/skills/logo_html.png'
-import thumbCssLogo from '../public/images/skills/logo_css.png'
+import thumbJavaLogo from '../public/images/skills/java_logo.png'
 import thumbJSLogo from '../public/images/skills/logo_js.png'
 import thumbGitLogo from '../public/images/skills/logo_git.png'
 import thumbNodeLogo from '../public/images/skills/nodeJs_logo.png'
@@ -25,8 +24,7 @@ const Posts = () => (
 
       <Section delay={0.1}>
         <SimpleGrid columns={[1, 2, 3, 4]} gap={6}>
-          <GridItem title="HTML" thumbnail={thumbHtmlLogo} />
-          <GridItem title="CSS" thumbnail={thumbCssLogo} />
+          <GridItem title="Java" thumbnail={thumbJavaLogo} />
           <GridItem title="JavaScript" thumbnail={thumbJSLogo} />
           <GridItem title="Git" thumbnail={thumbGitLogo} />
           <GridItem title="React" thumbnail={thumbReactLogo} />
