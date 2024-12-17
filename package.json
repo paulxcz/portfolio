@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "description": "Paul's website",
   "scripts": {
-    "dev": "next dev -H 0.0.0.0",
+    "dev": "next dev -p 8080",
     "build": "next build",
     "start": "next start",
     "prettier": "prettier -write .",

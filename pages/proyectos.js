@@ -11,6 +11,7 @@ import thumbCalculator from '../public/images/works/calculator.png'
 import thumbCountDownTimer from '../public/images/works/countdown-timer.png'
 import thumbWeEnjoyManga from '../public/images/works/WeEnjoyManga.png'
 import thumbGifExpertApp from '../public/images/works/gifExpertApp.png'
+import thumbBlogApp from '../public/images/works/Blog_app.png'
 
 const Works = () => (
   <Layout title="Proyectos">
@@ -20,6 +21,13 @@ const Works = () => (
       </Heading>
 
       <SimpleGrid columns={[1, 1, 2]} gap={6}>
+        <Section delay={0.1}>
+          <WorkGridItem id="Blog_app" title="Blog App" thumbnail={thumbBlogApp}>
+            Aplicativo web diseñada para ofrecer a los usuarios una experiencia
+            intuitiva y funcional al publicar y gestionar contenido. Construido
+            con MongoDB, Express, React y Node.js.
+          </WorkGridItem>
+        </Section>
         <Section delay={0.1}>
           <WorkGridItem
             id="Paper_rock_scissor"
