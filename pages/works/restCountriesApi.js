@@ -5,19 +5,25 @@ import P from '../../components/paragraph'
 import Layout from '../../components/layouts/article'
 
 const Work = () => (
-  <Layout title="Inkdrop">
+  <Layout title="Rest Countries Api">
     <Container>
       <Title>
         Rest-Countries-Api <Badge>2021-</Badge>
       </Title>
       <P>
-        Plataforma Web en la cual podrás buscar información de cualquier país. Además cuenta con un campo para realizar busquedas directas por nombre de país.
+        Plataforma Web en la cual podrás buscar información de cualquier país.
+        Además cuenta con un campo para realizar busquedas directas por nombre
+        de país.
       </P>
       <List ml={4} my={4}>
         <ListItem>
           <Meta>Website</Meta>
-          <Link href="https://paulxcz.github.io/REST-Countries-API/index.html" target="_blank">
-          https://paulxcz.github.io/REST-Countries-API/index.html <ExternalLinkIcon mx="2px" />
+          <Link
+            href="https://paulxcz.github.io/REST-Countries-API/index.html"
+            target="_blank"
+          >
+            https://paulxcz.github.io/REST-Countries-API/index.html{' '}
+            <ExternalLinkIcon mx="2px" />
           </Link>
         </ListItem>
         <ListItem>
@@ -26,9 +32,18 @@ const Work = () => (
         </ListItem>
       </List>
 
-      <WorkImage src="/images/works/restCountriesApi_01.png" alt="Inkdrop" />
-      <WorkImage src="/images/works/restCountriesApi_02.png" alt="Inkdrop" />
-      <WorkImage src="/images/works/restCountriesApi_03.png" alt="Inkdrop" />
+      <WorkImage
+        src="/images/works/restCountriesApi_01.png"
+        alt="Rest countries API"
+      />
+      <WorkImage
+        src="/images/works/restCountriesApi_02.png"
+        alt="Rest countries API"
+      />
+      <WorkImage
+        src="/images/works/restCountriesApi_03.png"
+        alt="Rest countries API"
+      />
     </Container>
   </Layout>
 )

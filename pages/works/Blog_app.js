@@ -82,7 +82,7 @@ const Work = () => (
         para moderar el contenido.
       </Text>
       <WorkImage
-        src="/images/works/blog_app_posts.png"
+        src="/images/works/Blog_app_posts.gif"
         alt="Publicación de posts"
       />
 

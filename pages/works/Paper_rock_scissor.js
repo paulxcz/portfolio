@@ -5,19 +5,24 @@ import P from '../../components/paragraph'
 import Layout from '../../components/layouts/article'
 
 const Work = () => (
-  <Layout title="Inkdrop">
+  <Layout title="Paper, Rock & Scissor">
     <Container>
       <Title>
         Piedra, Papel y Tijera <Badge>2021-</Badge>
       </Title>
       <P>
-        El clásico juego de Piedra, papel y Tijera, pero con un bonus; ya que este cuenta con 2 figuras adicionales, que harán el juego más variado.
+        El clásico juego de Piedra, papel y Tijera, pero con un bonus; ya que
+        este cuenta con 2 figuras adicionales, que harán el juego más variado.
       </P>
       <List ml={4} my={4}>
         <ListItem>
           <Meta>Website</Meta>
-          <Link href="https://paulxcz.github.io/paper-scissor-rock-frontendmentor/" target="_blank">
-          https://paulxcz.github.io/paper-scissor-rock-frontendmentor/ <ExternalLinkIcon mx="2px" />
+          <Link
+            href="https://paulxcz.github.io/paper-scissor-rock-frontendmentor/"
+            target="_blank"
+          >
+            https://paulxcz.github.io/paper-scissor-rock-frontendmentor/{' '}
+            <ExternalLinkIcon mx="2px" />
           </Link>
         </ListItem>
 
@@ -27,9 +32,18 @@ const Work = () => (
         </ListItem>
       </List>
 
-      <WorkImage src="/images/works/paper_rock_scissor_01.png" alt="Inkdrop" />
-      <WorkImage src="/images/works/paper_rock_scissor_02.png" alt="Inkdrop" />
-      <WorkImage src="/images/works/paper_rock_scissor_03.png" alt="Inkdrop" />
+      <WorkImage
+        src="/images/works/paper_rock_scissor_01.png"
+        alt="Paper, Rock & Scissor"
+      />
+      <WorkImage
+        src="/images/works/paper_rock_scissor_02.png"
+        alt="Paper, Rock & Scissor"
+      />
+      <WorkImage
+        src="/images/works/paper_rock_scissor_03.png"
+        alt="Paper, Rock & Scissor"
+      />
     </Container>
   </Layout>
 )

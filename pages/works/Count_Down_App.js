@@ -11,13 +11,18 @@ const Work = () => (
         Count-Down <Badge>2021-</Badge>
       </Title>
       <P>
-        Contador de días, el cual presenta una animación en cada uno de sus campos.
+        Contador de días, el cual presenta una animación en cada uno de sus
+        campos.
       </P>
       <List ml={4} my={4}>
         <ListItem>
           <Meta>Website</Meta>
-          <Link href="https://paulxcz.github.io/frontendMentor-Launch-countdown-timer/" target="_blank">
-          https://paulxcz.github.io/frontendMentor-Launch-countdown-timer/ <ExternalLinkIcon mx="2px" />
+          <Link
+            href="https://paulxcz.github.io/frontendMentor-Launch-countdown-timer/"
+            target="_blank"
+          >
+            https://paulxcz.github.io/frontendMentor-Launch-countdown-timer/{' '}
+            <ExternalLinkIcon mx="2px" />
           </Link>
         </ListItem>
 
@@ -25,10 +30,12 @@ const Work = () => (
           <Meta>Stack</Meta>
           <span>JS Vanilla, SASS, setTimeOout API</span>
         </ListItem>
-     
       </List>
 
-      <WorkImage src="/images/works/countdown-timer.png" alt="Inkdrop" />
+      <WorkImage
+        src="/images/works/countdown-timer.png"
+        alt="Countdown timer"
+      />
     </Container>
   </Layout>
 )

@@ -11,20 +11,22 @@ const Work = () => (
         We Enjoy Manga <Badge>2021-</Badge>
       </Title>
       <P>
-        We Enjoy Manga es un sitio dedidcado al manga/anime, en el cual se publican recomendaciones, resúmenes y música de animes(openings y endings).
+        We Enjoy Manga es un sitio dedidcado al manga/anime, en el cual se
+        publican recomendaciones, resúmenes y música de animes(openings y
+        endings).
       </P>
       <List ml={4} my={4}>
         <ListItem>
           <Meta>Website</Meta>
-          <Link href="https://weenjoymanga.com" target="_blank">
-          https://weenjoymanga.com <ExternalLinkIcon mx="2px" />
+          <Link href="https://paulxcz.github.io/WeEnjoyManga/" target="_blank">
+            https://paulxcz.github.io/WeEnjoyManga/{' '}
+            <ExternalLinkIcon mx="2px" />
           </Link>
         </ListItem>
         <ListItem>
           <Meta>Stack</Meta>
           <span>JS Vanilla, Sass, flexbox, CSS-Grid</span>
         </ListItem>
-
       </List>
 
       <WorkImage src="/images/works/WeEnjoyManga.png" alt="We Enjoy Manga" />
