@@ -67,7 +67,7 @@ const Work = () => (
         puede registrarse, iniciar sesión y acceder a su cuenta personal.
       </Text>
       <WorkImage
-        src="/images/works/blog_app_auth.png"
+        src="/images/works/Blog_app_auth.png"
         alt="Flujo de autenticación"
       />
 
