@@ -12,6 +12,7 @@ import thumbCountDownTimer from '../public/images/works/countdown-timer.png'
 import thumbWeEnjoyManga from '../public/images/works/WeEnjoyManga.png'
 import thumbGifExpertApp from '../public/images/works/gifExpertApp.png'
 import thumbBlogApp from '../public/images/works/Blog_app.png'
+import thumbBasicShop from '../public/images/works/Basic_shop.png'
 
 const Works = () => (
   <Layout title="Proyectos">
@@ -21,6 +22,17 @@ const Works = () => (
       </Heading>
 
       <SimpleGrid columns={[1, 1, 2]} gap={6}>
+        <Section delay={0.1}>
+          <WorkGridItem
+            id="Basic_shop"
+            title="Basic shop"
+            thumbnail={thumbBasicShop}
+          >
+            Sistema diseñado para gestionar la venta de productos básicos
+            mediante un flujo claro y ordenado de roles y estados de pedidos.
+            Construido con una arquitectura robusta usando React, .Net 6 y SQL.
+          </WorkGridItem>
+        </Section>
         <Section delay={0.1}>
           <WorkGridItem id="Blog_app" title="Blog App" thumbnail={thumbBlogApp}>
             Aplicativo web diseñada para ofrecer a los usuarios una experiencia
