@@ -1,4 +1,4 @@
-import { Container, Heading, SimpleGrid } from '@chakra-ui/react'
+import { Container, Heading, SimpleGrid, Tag, Wrap, WrapItem, Text } from '@chakra-ui/react'
 import Layout from '../components/layouts/article'
 import Section from '../components/section'
 import { GridItem } from '../components/grid-item'
@@ -19,7 +19,45 @@ const Posts = () => (
   <Layout title="Skills">
     <Container>
       <Heading as="h3" fontSize={20} mb={4}>
-        Mis Skills
+        Especialidades
+      </Heading>
+
+      <Section delay={0.05}>
+        <Text mb={3}>
+          Áreas donde aporto mayor valor en proyectos freelance:
+        </Text>
+        <Wrap spacing={2} mb={8}>
+          {[
+            'IA aplicada',
+            'Visión computacional',
+            'OCR (PaddleOCR / EasyOCR)',
+            'SIFT / ORB',
+            'Embeddings (DINOv2)',
+            'Automatización de procesos',
+            'Python / FastAPI',
+            'C# .NET',
+            'Node.js',
+            'React / Angular',
+            'TypeScript',
+            'SQL Server',
+            'MongoDB',
+            'ETL / optimización de queries',
+            'APIs RESTful',
+            'Microservicios',
+            'Integraciones ERP / legacy',
+            'AWS'
+          ].map(skill => (
+            <WrapItem key={skill}>
+              <Tag size="lg" colorScheme="teal" borderRadius="full">
+                {skill}
+              </Tag>
+            </WrapItem>
+          ))}
+        </Wrap>
+      </Section>
+
+      <Heading as="h3" fontSize={20} mb={4}>
+        Tecnologías
       </Heading>
 
       <Section delay={0.1}>

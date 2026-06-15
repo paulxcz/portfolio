@@ -15,7 +15,10 @@ const Main = ({ children, router }) => {
     <Box as="main" pb={8}>
       <Head>
         <meta name="viewport" content="width=device-width, initial-scale=1" />
-        <meta name="description" content="Paul's homepage" />
+        <meta
+          name="description"
+          content="Paul Aranda — Ingeniero de software freelance especializado en IA aplicada, visión computacional y automatización de procesos. Backend en .NET, Node.js y Python/FastAPI."
+        />
         <meta name="author" content="Paúl Aranda" />
         <meta name="author" content="Paulxcz" />
         <link rel="apple-touch-icon" href="apple-touch-icon.png" />
@@ -24,10 +27,14 @@ const Main = ({ children, router }) => {
         <meta name="twitter:site" content="@Paularturo1998" />
         <meta name="twitter:creator" content="@Paularturo1998" />
         <meta name="twitter:image" content="/card.png" />
-        <meta property="og:site_name" content="Paul Aranda's Homepage" />
+        <meta property="og:site_name" content="Paul Aranda — AI & Automation Engineer" />
         <meta property="og:type" content="website" />
         <meta property="og:image" content="/card.png" />
-        <title>Paul Aranda - Homepage</title>
+        <meta
+          property="og:description"
+          content="Ingeniero freelance en IA aplicada, visión computacional y automatización de procesos."
+        />
+        <title>Paul Aranda — AI & Automation Engineer</title>
       </Head>
 
       <NavBar path={router.asPath} />

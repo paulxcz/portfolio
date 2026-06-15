@@ -16,7 +16,7 @@ import Paragraph from '../components/paragraph'
 import { BioSection, BioYear } from '../components/bio'
 import Layout from '../components/layouts/article'
 import Section from '../components/section'
-import { IoLogoGithub, IoLogoLinkedin } from 'react-icons/io5'
+import { IoLogoGithub, IoLogoLinkedin, IoMail } from 'react-icons/io5'
 
 const Home = () => (
   <Layout>
@@ -28,7 +28,8 @@ const Home = () => (
         textAlign="center"
         bg={useColorModeValue('whiteAlpha.500', 'whiteAlpha.200')}
       >
-        Hola, soy Paul, un apasionado por el desarrollo de software.
+        Hola, soy Paul — ingeniero de software especializado en IA aplicada,
+        visión computacional y automatización de procesos.
       </Box>
 
       <Box display={{ md: 'flex' }}>
@@ -36,7 +37,10 @@ const Home = () => (
           <Heading as="h2" variant="page-title">
             Paul Aranda
           </Heading>
-          <p>Paulxcz (FullStack Developer)</p>
+          <p>
+            AI &amp; Automation Engineer · Computer Vision · Backend (.NET / Node
+            / Python)
+          </p>
         </Box>
         <Box
           flexShrink={0}
@@ -59,13 +63,16 @@ const Home = () => (
 
       <Section delay={0.1}>
         <Heading as="h3" variant="section-title">
-          Proyectos
+          Perfil
         </Heading>
         <Paragraph>
-          Paul es un egresado de la carrera de ingeniería de sistemas de
-          información, apasiando por aprender constantemente nuevas tecnologías
-          o tendencias, con el objetivo de crear servicios o plataformas
-          digitales para poder resolver problemas o facilitar procesos.
+          Ingeniero de Sistemas (UPC) con experiencia construyendo soluciones de{' '}
+          IA aplicada, visión computacional y automatización de procesos para
+          banca, energía y compliance internacional. Diseño sistemas backend
+          robustos (.NET, Node.js, Python/FastAPI) e integraciones con ERP y
+          sistemas legacy. Como freelance ayudo a empresas a automatizar tareas
+          repetitivas, implementar control de calidad por visión computacional y
+          modernizar sus plataformas, con foco en resultados medibles.
         </Paragraph>
         <Box align="center" my={4}>
           <NextLink href="/proyectos">
@@ -74,6 +81,42 @@ const Home = () => (
             </Button>
           </NextLink>
         </Box>
+      </Section>
+
+      <Section delay={0.15}>
+        <Heading as="h3" variant="section-title">
+          Servicios freelance
+        </Heading>
+        <List>
+          <ListItem>
+            <Box as="span" fontWeight="bold">
+              Automatización con IA:
+            </Box>{' '}
+            automatización de procesos de backoffice, asistentes inteligentes y
+            reportería; reducción de tiempos operativos.
+          </ListItem>
+          <ListItem mt={2}>
+            <Box as="span" fontWeight="bold">
+              Visión computacional:
+            </Box>{' '}
+            control de calidad industrial, OCR (PaddleOCR / EasyOCR), feature
+            matching (SIFT / ORB) y embeddings (DINOv2).
+          </ListItem>
+          <ListItem mt={2}>
+            <Box as="span" fontWeight="bold">
+              Backend &amp; APIs:
+            </Box>{' '}
+            APIs RESTful, microservicios e integraciones con ERP y sistemas
+            legacy a web.
+          </ListItem>
+          <ListItem mt={2}>
+            <Box as="span" fontWeight="bold">
+              Modernización:
+            </Box>{' '}
+            migración de monolitos a microservicios y compliance de software
+            (experiencia en sector regulado US).
+          </ListItem>
+        </List>
       </Section>
 
       <Section delay={0.2}>
@@ -100,8 +143,13 @@ const Home = () => (
 
         <BioSection>
           <BioYear>2024</BioYear>
-          Complete el bachiller de Ingeniería de Sistemas de Información en la
-          Universidad Peruana de Ciencias Aplicadas(UPC).
+          Me titulé en Ingeniería de Sistemas de Información en la Universidad
+          Peruana de Ciencias Aplicadas (UPC).
+        </BioSection>
+        <BioSection>
+          <BioYear>2025</BioYear>
+          Desarrollo soluciones de IA aplicada, visión computacional y
+          automatización de procesos; y tomo proyectos freelance en paralelo.
         </BioSection>
       </Section>
 
@@ -149,6 +197,17 @@ const Home = () => (
                 leftIcon={<Icon as={IoLogoLinkedin} />}
               >
                 @Paúl_AB
+              </Button>
+            </Link>
+          </ListItem>
+          <ListItem>
+            <Link href="mailto:paulxcz@gmail.com">
+              <Button
+                variant="ghost"
+                colorScheme="teal"
+                leftIcon={<Icon as={IoMail} />}
+              >
+                paulxcz@gmail.com
               </Button>
             </Link>
           </ListItem>
