@@ -1,128 +1,97 @@
-import { Container, Heading, SimpleGrid } from '@chakra-ui/react'
+import { Container, Heading, SimpleGrid, Text } from '@chakra-ui/react'
 import Layout from '../components/layouts/article'
 import Section from '../components/section'
 import { WorkGridItem } from '../components/grid-item'
 
-import thumbIpTacker from '../public/images/works/IpTracker.png'
-import thumbRestCountries from '../public/images/works/restCountriesApi.png'
-import thumbPaperScissorRock from '../public/images/works/Paper_Scissor_rock.png'
-import thumbStreamBaseApp from '../public/images/works/stream-base-app.png'
-import thumbCalculator from '../public/images/works/calculator.png'
-import thumbCountDownTimer from '../public/images/works/countdown-timer.png'
-import thumbWeEnjoyManga from '../public/images/works/WeEnjoyManga.png'
-import thumbGifExpertApp from '../public/images/works/gifExpertApp.png'
-import thumbBlogApp from '../public/images/works/Blog_app.png'
-import thumbBasicShop from '../public/images/works/Basic_shop.png'
+import thumbVisionQC from '../public/images/works/vision_qc.png'
+import thumbAgenteIA from '../public/images/works/agente_ia.png'
+import thumbAutoBanca from '../public/images/works/automatizacion_banca.png'
+import thumbIntegracionERP from '../public/images/works/integracion_erp.png'
+import thumbCompliance from '../public/images/works/compliance_us.png'
+import thumbPedidos from '../public/images/works/pedidos_comida.png'
+
+// Proyectos académicos y demos anteriores: se mantienen sus páginas en
+// /pages/works, pero se ocultan de la grilla para dar protagonismo a los
+// proyectos profesionales. Para volver a mostrarlos, reactivar las tarjetas.
 
 const Works = () => (
   <Layout title="Proyectos">
     <Container>
-      <Heading as="h3" fontSize={20} mb={4}>
+      <Heading as="h3" fontSize={20} mb={2}>
         Proyectos
       </Heading>
+      <Text mb={6} opacity={0.85}>
+        Soluciones que he construido para empresas de distintos rubros. Por
+        confidencialidad menciono el sector, no el nombre del cliente, y
+        priorizo el resultado de negocio.
+      </Text>
 
       <SimpleGrid columns={[1, 1, 2]} gap={6}>
         <Section delay={0.1}>
           <WorkGridItem
-            id="Basic_shop"
-            title="Basic shop"
-            thumbnail={thumbBasicShop}
+            id="vision_qc"
+            title="Visión computacional para control de calidad"
+            thumbnail={thumbVisionQC}
           >
-            Sistema diseñado para gestionar la venta de productos básicos
-            mediante un flujo claro y ordenado de roles y estados de pedidos.
-            Construido con una arquitectura robusta usando React, .Net 6 y SQL.
-          </WorkGridItem>
-        </Section>
-        <Section delay={0.1}>
-          <WorkGridItem id="Blog_app" title="Blog App" thumbnail={thumbBlogApp}>
-            Aplicativo web diseñada para ofrecer a los usuarios una experiencia
-            intuitiva y funcional al publicar y gestionar contenido. Construido
-            con MongoDB, Express, React y Node.js.
-          </WorkGridItem>
-        </Section>
-        <Section delay={0.1}>
-          <WorkGridItem
-            id="Paper_rock_scissor"
-            title="Piedra, Papel y Tijera"
-            thumbnail={thumbPaperScissorRock}
-          >
-            Aplicativo web que simula el clásico juego de &quot;Piedra, Papel y
-            Tijera&quot;, solo que este cuenta con un bonus y es que hay 2
-            figuras adicionales, lo cual aumenta la dificultad.
-          </WorkGridItem>
-        </Section>
-        <Section delay={0.1}>
-          <WorkGridItem
-            id="stream_base_app"
-            thumbnail={thumbStreamBaseApp}
-            title="Stream Base App"
-          >
-            Sitio web que simula características básicas de twitch.tv, realizado
-            con React, Sass, first mobile y metodología BEM.
-          </WorkGridItem>
-        </Section>
-        <Section>
-          <WorkGridItem
-            id="ipTracker"
-            title="Ip Tracker"
-            thumbnail={thumbIpTacker}
-          >
-            Un aplicativo web a través del cual puedes consultar la ubicación de
-            una IP.
-          </WorkGridItem>
-        </Section>
-        <Section>
-          <WorkGridItem
-            id="restCountriesApi"
-            title="Rest Countries API"
-            thumbnail={thumbRestCountries}
-          >
-            Aplicativo web en el cuál podrás consultar información de cualquier
-            país, además de filtrar busqueda de países por continente o nombre.
+            Inspección visual en línea que detecta defectos en tiempo real para
+            una empresa productora de snacks. −31% de mermas y 99.2% de
+            precisión.
           </WorkGridItem>
         </Section>
 
         <Section delay={0.1}>
           <WorkGridItem
-            id="We_Enjoy_Manga"
-            thumbnail={thumbWeEnjoyManga}
-            title="We Enjoy Manga"
+            id="agente_ia"
+            title="Agente de IA para ventas y atención"
+            thumbnail={thumbAgenteIA}
           >
-            Página web dedicada a publicar información actualizada,
-            recomendaciones y playlist sobre anime y manga.
+            Asistente conversacional 24/7 (WhatsApp, Instagram, web) para una
+            empresa de retail / e-commerce. Resuelve el 87% de las consultas sin
+            humanos.
           </WorkGridItem>
         </Section>
 
         <Section delay={0.1}>
           <WorkGridItem
-            id="Gif_Expert_App"
-            thumbnail={thumbGifExpertApp}
-            title="Gif Expert App"
+            id="automatizacion_banca"
+            title="Automatización de backoffice con IA"
+            thumbnail={thumbAutoBanca}
           >
-            Aplicativo web en el cual podrás buscar Gif&apos;s de cualquier
-            genero.
+            Reportería y procesos automatizados para una empresa del sector
+            banca / riesgos. −80% de tiempo operativo y cero errores manuales.
           </WorkGridItem>
         </Section>
 
         <Section delay={0.1}>
           <WorkGridItem
-            id="calculator_app"
-            thumbnail={thumbCalculator}
-            title="Calculator App"
+            id="integracion_erp"
+            title="Integración de ERP y legacy a la web"
+            thumbnail={thumbIntegracionERP}
           >
-            Aplicativo desarrollado con HTML, JS vanila, scss, flexbox y
-            css-grid, cuenta con 3 temas diferentes.
+            Middleware y APIs que exponen datos de ERP y sistemas legacy a web y
+            móvil para una empresa de energía / utilities. Datos en menos de 2 s.
           </WorkGridItem>
         </Section>
 
         <Section delay={0.1}>
           <WorkGridItem
-            id="Count_Down_App"
-            thumbnail={thumbCountDownTimer}
-            title="Count-down timer"
+            id="compliance_us"
+            title="Compliance y trazabilidad regulatoria"
+            thumbnail={thumbCompliance}
           >
-            Un aplicativo que simula características básicas de twitch.tv,
-            realizado con React, Sass, first mobile y metodología BEM.
+            Trazabilidad seed-to-sale con sincronización automática al regulador
+            para un sector regulado en EE.UU. Cero rechazos desde el despliegue.
+          </WorkGridItem>
+        </Section>
+
+        <Section delay={0.1}>
+          <WorkGridItem
+            id="pedidos_comida"
+            title="Plataforma de gestión de pedidos"
+            thumbnail={thumbPedidos}
+          >
+            Tablero de pedidos en tiempo real (caja, cocina, delivery, admin)
+            para una empresa de comida rápida. −35% en tiempo de atención.
           </WorkGridItem>
         </Section>
       </SimpleGrid>
